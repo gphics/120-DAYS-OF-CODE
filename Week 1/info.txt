@@ -1,0 +1,10 @@
+Week 1 started on August 22 2022
+
+Task outline:
+Day 1    HTML ____ Done
+Day 2    CSS ___  Done
+Day 3    PROJECT___ Done :: Javascript begins
+Day 4    Javascript fundamentals 1
+Day 5    Javascript fundamentals 2
+Day 6    Modal window, Guess my number(DOM manipulation)
+Day 7    Pig game (DOM manipulation)

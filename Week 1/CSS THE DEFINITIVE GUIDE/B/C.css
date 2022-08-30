@@ -1,0 +1,72 @@
+body{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+div{
+    margin:10px;
+    width:20px;
+    height: 10px;
+    overflow: hidden;
+   background-color: rgb(7, 37, 37);
+   transition-duration: 0s;
+   transition-property: all;
+   padding:10px;
+}
+
+div:hover{
+    /* background: linear-gradient( to right,
+    red 10%, green 30%, blue 10%, yellow 10%, purple 10%,
+    orange 10%, brown 
+    ); */
+    width: 400px;
+    height: 30px;
+    color:white;
+    /* background: linear-gradient(
+        to top right, purple, green 49.5%, black 50%, green 50.5%, gold
+       )
+       ; */
+
+       /* background-image:
+ linear-gradient(0deg, rgba(255,128,128,0.25), transparent 75%),
+ linear-gradient(89deg,
+ transparent, transparent 30%,
+ #510A0E 35%, #510A0E 40%, #61100F 43%, #B93F3A 50%,
+ #4B0408 55%, #6A0F18 60%, #651015 65%, #510A0E 70%,
+ #510A0E 75%, rgba(255,128,128,0) 80%, transparent),
+ linear-gradient(92deg,
+ #510A0E, #510A0E 20%, #61100F 25%, #B93F3A 40%, #4B0408 50%,
+ #6A0F18 70%, #651015 80%, #510A0E 90%, #510A0E);
+background-size: auto, 300px 100%, 109px 100%;
+background-repeat: repeat-x;
+
+} */
+background: linear-gradient(-245deg, red , green, purple ) bottom left/ 80px 10px repeat;
+
+
+}
+p{
+    margin-bottom: 20px;
+}
+
+section{
+ width:100px;
+ margin:10px;
+ background-color: blueviolet;
+ height:100px;   
+ transition-duration: 0s;
+ transition-property: all;
+ box-shadow: inset 5px 5px 5px 5px black, inset -5px -5px 5px 5px red ;
+
+}
+section:hover{
+    border-radius: 5px;;
+    background:red;
+    box-shadow: inset 5px 5px 5px 5px rgb(5, 188, 194), inset -5px -5px 5px 5px rgb(0, 77, 13) ;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    
+}

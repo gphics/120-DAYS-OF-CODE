@@ -1,0 +1,40 @@
+input:focus{
+    background:silver;
+    color:rgb(0, 8, 8);
+    width:150px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+}
+
+body *:hover{
+    transition-duration: 4s;
+    transition-property:width;
+    width:200px;
+
+}
+body *:hover, :enabled{
+    width:200px;
+
+}
+div{
+    width:30px;
+    height:50px;
+    background-color: coral;
+    margin:10px;
+    padding:1px;
+    overflow:hidden;
+}
+:enabled{
+    border:5px solid red;
+}
+:checked{
+    border: 225px solid red;
+}
+
+input[type='email']:focus:invalid{
+    border:20px solid orange;
+}

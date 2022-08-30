@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'ghost';
+    font-size: xx-small;
+    font-style: oblique;
+    font-weight: 900;
+    src: url('13 Ghosts Full.ttf') format('opentype');
+}
+
+div{
+    background:rgb(158, 158, 230);
+    color:white;
+    overflow:hidden;
+    width:20px;
+    height:20px;
+    transition-duration: 2s;
+    transition-property: all;
+}
+p{
+    padding: 5px;
+}
+
+div:hover{
+    width:500px;
+    height:50px;
+    color:aquamarine;
+    background-color: grey;
+    /* font-family: monospace;
+    font-size-adjust: auto; */
+    font-family: ghost;
+    font-stretch: ultra-expanded;
+    font-kerning: none;
+
+}
+article{
+    background-color: black;
+    width:100px;
+    height:30px;
+    border-top: 5px inset red;
+    border-right: 5px ridge red;
+    border-left: 5px outset rgb(98, 0, 255);
+    border-bottom: 5px groove rgb(42, 236, 16);
+    margin:10px;
+}
+
+section{
+    display:flow-root;
+}
+
+aside{
+    /* letter-spacing: 222px;
+    word-spacing: 24px; */
+    text-indent:2em;
+    text-decoration: blink;
+        /* text-align:start;
+            text-align-last: justify;
+            line-height: 20px; */
+}
+
+span{
+    vertical-align: bottom;
+    text-shadow: 1px 1px 5px  red;
+}
+
+.now{
+    width:420px;
+    height:300px;
+    background-color: blueviolet;
+    margin:20px;
+    outline: 2px solid red;
+    border: 5px solid red;
+    background-clip:content-box;
+    padding:10px;
+    /* border-image-source: url(A.png);
+    border-image-slice: 20 fill; */
+
+    /* border-image-slice: 20px 10px; */
+    /* border: 30px solid; */
+    /* border-radius:10px;;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    border-left: 4px outset red;
+    border-top: 5px solid yellow;
+    border-bottom: 5px inset green;
+    border-right: 5px groove pink;
+    border-image-slice: 40% 30% 20% fill; */
+
+}
+body{
+    background: linear-gradient(-500deg, hsl(200deg, 20%, 30%) 40%, red 20%, rgb(50, 50, 0) );
+    /* background-image: url(A.png), url(A.png); */
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    /* background-position:top right, center;
+    background-origin: border-box;
+    background-repeat:no-repeat, repeat-x;
+    background-attachment: scroll, fixed;
+    background-size:200px 200px, 500px 500px;
+}  */
+}
+
+div[class^='r']{
+    width:500px;
+}

@@ -1,0 +1,49 @@
+p{
+    color:red;
+    padding: 5px;
+}
+h1[class^="l" i]{
+    color:aquamarine
+}
+
+article div aside blockquote b strong {
+    color:red;
+    font: 20px serif;
+}
+aside:first-child{
+    background:orange;
+    padding:10px;
+}
+strong:last-child{
+    color:pink;
+    text-transform: uppercase;
+}
+
+div:not(.row){
+    background:blue;
+}
+
+article > div  {
+    font:50px poppins;
+}
+:root{
+    background:rebeccapurple
+}
+/* div:empty{
+    display:none;
+} */
+strong:only-child{
+    color:yellow;
+    text-decoration: double;
+}
+
+article div:only-of-type{
+    transition-duration: 1111s;
+    transition-property: all;
+  
+
+}
+article div:hover{
+  width:400px;
+  height:500px
+}
